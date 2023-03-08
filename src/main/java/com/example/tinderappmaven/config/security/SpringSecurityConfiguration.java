@@ -31,12 +31,9 @@ public class SpringSecurityConfiguration {
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception{
-        http.csrf().ignoringRequestMatchers(PathRequest.toH2Console())
-                .and()
-                .csrf().ignoringRequestMatchers("/register/**")
+        http.csrf().ignoringRequestMatchers("/register/**")
                 .and()
                 .authorizeHttpRequests()
-                .requestMatchers(PathRequest.toH2Console()).permitAll()
                 .requestMatchers("/login/**", "/register/**", "/images/**","/css/**", "/js/**")
                 .permitAll()
                 .requestMatchers(HttpMethod.POST,"/register/**")
