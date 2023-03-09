@@ -18,7 +18,7 @@ public class Reactions {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private Long user_id;
-    private Long picture_id;
-    private Boolean is_liked;
+    private Long userId;
+    private Long profileId;
+    private Boolean isLiked;
 }

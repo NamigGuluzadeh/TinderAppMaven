@@ -198,6 +198,8 @@ body{
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    background: none;
+    border: none;
 }
 
 .favourites-card-remove-icon{

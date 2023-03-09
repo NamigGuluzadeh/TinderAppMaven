@@ -20,6 +20,11 @@ public class Profile {
     private Long id;
     private String username;
     private String profilePicture;
+    private String about;
+    private String location;
+    private String sex;
+    private Long age;
+    private String nickname;
     @ManyToMany(mappedBy = "likedProfiles")
     private List<UserEntity> users = new ArrayList<>();
 }

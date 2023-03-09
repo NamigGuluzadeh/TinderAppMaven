@@ -218,6 +218,7 @@ body{
     color: #333333;
     border: none;
     width: 80%;
+    align-items: baseline;
 }
 
 .profile-description-container-wrapper{
@@ -305,10 +306,11 @@ body{
     font-size: 21px;
     color:#333;
     margin-right: 8px;
+
 }
 
 .profile-description-date-input{
-    border: none;
+    border: #1B3E85;
     width: 160px;
     padding: 8px 0;
     box-sizing: border-box;

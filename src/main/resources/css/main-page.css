@@ -136,20 +136,20 @@ body{
 }
 
 .main-section-description-title{
-    font-size: 96px;
-    color: white;
+    font-size: 60px;
+    color: #1B3E85;
     margin-bottom: 20px;
 }
 
 .main-section-description{
     font-size: 24px;
     line-height: 28px;
-    color: white;
+    color: #0038AB;
     margin-bottom: 40px;
 }
 
 .main-section-description-link{
-    background-color: rgba(214, 231, 235, 0.4);
+    background-color: #00B5AD;
     padding: 15px 32px;
     border-radius: 10px;
     color: white;
@@ -159,7 +159,7 @@ body{
 }
 
 .main-section-description-link:hover{
-    background-color: rgba(214, 231, 235, 0.2);
+    background-color: #1B3E85;
 }
 
 .main-section-description-link-arrow{
@@ -169,8 +169,8 @@ body{
 
 .main-section-card-name{
     font-size: 24px;
-    color: white;
-    text-align: center;
+    color: #1B3E85;
+    text-align: left;
     display: block;
     margin-bottom: 10px;
 }
@@ -194,6 +194,8 @@ body{
     display: flex;
     align-items: center;
     margin-right: 60px;
+    background: none;
+    border: none;
 }
 
 .dislike-button{
@@ -202,6 +204,8 @@ body{
     text-decoration: none;
     display: flex;
     align-items: center;
+    background: none;
+    border: none;
 }
 
 .dislike-icon{
@@ -247,7 +251,7 @@ body{
 }
 
 .like-button:hover .like-icon path{
-    fill: #828282 !important;
+    fill: #1B3E85 !important;
 }
 
 .dislike-button:hover{
@@ -255,7 +259,7 @@ body{
 }
 
 .dislike-button:hover .dislike-icon path{
-    fill: #828282 !important;
+    fill: #1B3E85 !important;
 }
 
 /*.main-section-card{*/
@@ -269,11 +273,13 @@ body{
     }
 
     .main-section-description-title {
-        font-size: 70px;
+        font-size: 60px;
     }
 
     .main-section-description {
         font-size: 20px;
+        color: #1B3E85;
+        align-items: baseline;
     }
 
     .main-section-description-wrapper {
